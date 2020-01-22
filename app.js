@@ -13,7 +13,7 @@ app.get('/api', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-	res.status(200).send('Welcome to the Austin Bennett API');
+	res.status(200).send('<h1>Welcome to the Austin Bennett API</h1>');
 });
 
 // export app for the tests
